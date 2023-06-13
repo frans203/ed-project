@@ -81,7 +81,7 @@ def chooseAlgorithm(optionFromList, list):
        endTime = time.time()
        total = endTime - startTime
        pprint.pprint(array, compact=True, width=100)
-       print("Tempo total gasto para quickSort:", total, "s")
+       print("Tempo total gasto para quickSort:", total, "segundos")
     
 
 print("Bem vindo!")
