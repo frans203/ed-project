@@ -85,13 +85,13 @@ def chooseAlgorithm(optionFromList, list):
     
 
 print("Bem vindo!")
-print("Projeto de estrutura de dados \nimplementando os seguintes algoritmos e \n verificando seus tempos de execução:")
+print("Projeto de estrutura de dados feito por: Francisco Santana\nImplementando os seguintes algoritmos e verificando seus tempos de execução:")
 print("SelectionSort, bubbleSort, insertionSort, mergeSort, quickSort")
 
 array = []
 while True:
     try:
-        optionFile = int(input('Selecione primeiro o arquivo desejado: \n1 - num.1000.1.in\n2 - num.1000.2.in\n3 - num.1000.3.in\n4 - num.1000.4.in\n5 - num.10000.1.in\n6 - num.10000.2.in\n7 - num.10000.3.in\n8 - num.10000.4.in\n9 - num.100000.1.in\n10 - num.100000.2.in\n11 - num.100000.3.in\n12 - num.100000.4.in\n'))
+        optionFile = int(input('Selecione primeiro o arquivo de instâncias desejado: \n1 - num.1000.1.in\n2 - num.1000.2.in\n3 - num.1000.3.in\n4 - num.1000.4.in\n5 - num.10000.1.in\n6 - num.10000.2.in\n7 - num.10000.3.in\n8 - num.10000.4.in\n9 - num.100000.1.in\n10 - num.100000.2.in\n11 - num.100000.3.in\n12 - num.100000.4.in\n'))
         if optionFile < 1 or optionFile > 12:
              print("Selecione um número válido")
              continue
